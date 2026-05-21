@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+title: >-
+  Simulation code and data for "A Schur–Horn bound on thermal
+  molecular orientation by N-subpulse control"
+message: >-
+  If you use this software or its results, please cite both the
+  manuscript and this repository.
+type: software
+authors:
+  - given-names: Tanveer
+    family-names: Ahmad
+    email: tanveer.quantum@gmail.com
+    affiliation: Independent Researcher
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'  # TODO: paste yours
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20321681
+    description: Zenodo deposit (this software/data archive)
+repository-code: 'https://github.com/REPLACE-WITH-YOUR-USERNAME/schur-horn-thermal-orientation'
+url: 'https://doi.org/10.5281/zenodo.20321681'
+abstract: >-
+  Companion code, data, and figures for the manuscript "A Schur–Horn
+  bound on thermal molecular orientation by N-subpulse control". The
+  package implements the numerical optimisation of the N pulse areas
+  within the analytical layout of Hong et al. (Phys. Rev. Research 7,
+  L012049, 2025) for LiH at finite rotational temperature, and ships
+  the Schur–Horn upper bound on thermal orientation alongside the four
+  figures and the pickled optimisation results that back Table 2 of
+  the manuscript.
+keywords:
+  - molecular orientation
+  - rotational quantum control
+  - Schur–Horn inequality
+  - majorization
+  - finite-temperature ensemble
+  - lithium hydride
+  - pulse-train control
+  - quantum optimal control
+  - operability map
+  - field-free orientation
+license: MIT
+version: 1.0.0
+date-released: '2026-05-21'
+preferred-citation:
+  type: article
+  title: >-
+    A Schur–Horn bound on thermal molecular orientation by N-subpulse
+    control
+  authors:
+    - given-names: Tanveer
+      family-names: Ahmad
+      affiliation: Independent Researcher
+  journal: SciPost Physics Core
+  year: 2026
+  notes: Submitted. Update with volume/page/DOI once published.
